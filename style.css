@@ -175,6 +175,7 @@ h6{
 	box-sizing: border-box;
 	background-color: rgba(1, 1, 1, 0.7);
     text-align: justify;
+	left: 50%
 }
 .div4 {
     width: 370px;
