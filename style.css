@@ -75,10 +75,10 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-/*	background: url(./bunny-ears.png);
+	background: url(./bunny-ears.png);
 	background-repeat: no-repeat;
     background-position: 69% -1%;
-	background-size: 200px;*/
+	background-size: 200px;
 	text-align: center;
 	font-size: 50px;
 	color: hotpink;
