@@ -1,51 +1,27 @@
-@media screen and (max-width: 1800px){
+/*@media screen and (max-width: 1800px){
 
-	.bottom-left {
-		position: absolute;
-		bottom: 0px;
-		left: 16px;
+	.mobile{
+		visibility: hidden;
+		clear: both;
+		float: left;
+		margin: 10px auto 5px 20px;
+		width: 28%;
+		display: none;
 	}
-	.top-left {
-		position: absolute;
-		top: 8px;
-		left: 16px;
-	}
-	
-	.top-right {
-		position: absolute;
-		top: 8px;
-		right: 16px;
-	}
-	.bottom-right {
-		position: absolute;
-		bottom: 0px;
-		right: 16px;
-	}
-}
+}*/
 
 @media screen and (max-width: 800px){
 
 
-	.bottom-left {
-		position: relative;
-		top: 8px;
-		left: 16px;
+	.container{
+		visibility: hidden;
+		clear: both;
+		float: left;
+		margin: 10px auto 5px 20px;
+		width: 28%;
+		display: none;
 	}
-	.top-left {
-		position: relative;
-		top: 8px;
-		left: 16px;
-	}
-	.top-right {
-		position: relative;
-		top: 8px;
-		left: 16px;
-	}
-	.bottom-right {
-		position: relative;
-		top: 8px;
-		left: 16px;
-	}
+	
   
 }
 
@@ -95,12 +71,36 @@ p {
 	color: hotpink;
 } 
 
-.twotwo { 
+	.twotwo { 
     position: relative; 
 	text-align: center;
 	font-size: 25px;
     top: 20%;
 }
+
+	.bottom-left {
+		position: absolute;
+		bottom: 0px;
+		left: 16px;
+	}
+	
+	.top-left {
+		position: absolute;
+		top: 8px;
+		left: 16px;
+	}
+	
+	.top-right {
+		position: absolute;
+		top: 8px;
+		right: 16px;
+	}
+	
+	.bottom-right {
+		position: absolute;
+		bottom: 0px;
+		right: 16px;
+	}
 
 a:link {
     text-decoration: none;
