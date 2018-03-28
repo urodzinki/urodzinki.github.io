@@ -1,32 +1,53 @@
-@media screen and (max-width: 481px){
-
+@media screen and (max-width: 1800px){
 
 	.bottom-left {
 		position: absolute;
-		top: 8px;
-		left: 0%;
+		bottom: 0px;
+		left: 16px;
 	}
 	.top-left {
 		position: absolute;
 		top: 8px;
-		left: 33%
+		left: 16px;
 	}
-
+	
 	.top-right {
 		position: absolute;
 		top: 8px;
-		right: 66%;
+		right: 16px;
 	}
 	.bottom-right {
 		position: absolute;
-		top: 8px;
-		right: 100%;
+		bottom: 0px;
+		right: 16px;
 	}
-  
-  
 }
 
+@media screen and (max-width: 800px){
 
+
+	.bottom-left {
+		position: relative;
+		top: 8px;
+		left: 16px;
+	}
+	.top-left {
+		position: relative;
+		top: 8px;
+		left: 16px;
+	}
+	.top-right {
+		position: relative;
+		top: 8px;
+		left: 16px;
+	}
+	.bottom-right {
+		position: relative;
+		top: 8px;
+		left: 16px;
+	}
+  
+}
 
 
 html, body {
@@ -50,48 +71,7 @@ body {
     text-align: center;
     color: black;
 }
-.bottom-left {
-    position: absolute;
-    bottom: 0px;
-    left: 16px;
-}
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
 
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-.bottom-right {
-    position: absolute;
-    bottom: 0px;
-    right: 16px;
-}
-
-.bottom-left-text {
-    position: absolute;
-    bottom: 80px;
-    left: 40px;
-}
-.top-left-text {
-    position: absolute;
-    top: 50px;
-    left: 25px;
-}
-.top-right-text {
-    position: absolute;
-    top: 180px;
-    right: 60px;
-}
-.bottom-right-text {
-    position: absolute;
-    bottom: 90px;
-    right: 50px;
-}
 p {
     position: absolute;
     top: 258px;
