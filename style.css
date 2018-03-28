@@ -7,8 +7,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 30;
   color:hotpink;
-  background-color:green;
- /* background: url(./bunny.jpg);*/
+  background-color:white;
+  background: url(./bunny.jpg);
 }
 
 .container {
@@ -29,6 +29,7 @@ body {
     top: 8px;
     left: 16px;
 }
+
 .top-right {
     position: absolute;
     top: 8px;
@@ -82,6 +83,13 @@ p {
 	font-size: 50px;
 	color: hotpink;
 } 
+
+.twotwo { 
+    position: relative; 
+	text-align: center;
+	font-size: 25px;
+    top: 20%;
+}
 
 a:link {
     text-decoration: none;
