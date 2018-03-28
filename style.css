@@ -1,18 +1,18 @@
-/*@media screen and (max-width: 1800px){
+@media screen and (max-width: 1800px){
 
 	.mobile{
 		visibility: hidden;
-		clear: both;
-		float: left;
-		margin: 10px auto 5px 20px;
-		width: 28%;
 		display: none;
 	}
-}*/
+}
 
 @media screen and (max-width: 800px){
 
-
+	.mobile{
+		visibility: visible;
+		display: block;
+	}
+	
 	.container{
 		visibility: hidden;
 		clear: both;
@@ -27,7 +27,21 @@
 		text-align: center;
 		font-size: 25px;
 		top: 20%;
-  
+	}
+	.mobiled {
+	padding-top: 70px;
+/*	width: 80%;
+	margin: auto;
+    transform: translate(50%, 50%);*/
+	background: url(./bunny-ears.png);
+	background-repeat: no-repeat;
+    background-position: 100% 0%;
+	background-size: 200px;
+	text-align: center;
+	font-size: 50px;
+	color: hotpink;
+} 
+	
 }
 
 
@@ -153,6 +167,7 @@ h6{
 
 .div1 {
     width: 260px;
+	margin: auto;
     padding: 15px;
 /*    border: 1px solid red;*/
 	font-size:17.5px;
@@ -161,6 +176,7 @@ h6{
 }
 .div2 {
     width: 200px;
+	margin: auto;
     padding: 15px;
 /*    border: 1px solid red;*/
 	font-size:17.5px;
@@ -169,16 +185,17 @@ h6{
 }
 .div3 {
     width: 370px;
+	margin: auto;
     padding: 15px;
 /*    border: 1px solid red;*/
 	font-size:17.5px;
 	box-sizing: border-box;
 	background-color: rgba(1, 1, 1, 0.7);
     text-align: justify;
-	left: 50%
 }
 .div4 {
     width: 370px;
+	margin: auto;
     padding: 15px;
 /*    border: 1px solid red;*/
 	font-size:17.5px;
