@@ -22,6 +22,11 @@
 		display: none;
 	}
 	
+	.l5 { 
+		position: relative; 
+		text-align: center;
+		font-size: 25px;
+		top: 20%;
   
 }
 
