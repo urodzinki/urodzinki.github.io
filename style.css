@@ -1,0 +1,176 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30;
+  color:hotpink;
+  background-color:black;
+  background: url(./bunny.jpg);
+}
+
+.container {
+	font-size: 20px;
+	height: 80%;
+	width: 100%;
+    position: absolute;
+    text-align: center;
+    color: black;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+}
+
+.bottom-left-text {
+    position: absolute;
+    bottom: 80px;
+    left: 40px;
+}
+.top-left-text {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+.top-right-text {
+    position: absolute;
+    top: 180px;
+    right: 60px;
+}
+.bottom-right-text {
+    position: absolute;
+    bottom: 90px;
+    right: 50px;
+}
+p {
+    position: absolute;
+    top: 258px;
+    left: 16px;
+	color: black;
+}
+.centered {
+	padding:50px;
+	padding-top: 110px;
+	padding-bottom: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	background: url(./bunny-ears.png);
+	background-repeat: no-repeat;
+    background-position: 69% -1%;
+	background-size: 200px;
+	text-align: center;
+	font-size: 50px;
+	color: hotpink;
+} 
+
+a:link {
+    text-decoration: none;
+	color: hotpink;
+}
+
+a:visited {
+    text-decoration: none;
+	color: hotpink;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+h1{	
+	font-family: 'Allura', script;
+}
+
+h2{	
+	margin:0;
+	font-family: 'Allura', script;
+    text-shadow: 2px 2px #ff00ff;
+}
+
+h5{	
+	margin:0;
+    text-shadow: 2px 2px #ff0000;
+	font-family: 'Allura', script;
+}
+
+h6{	
+	margin:0;
+	font-size:15px;
+}
+
+.header {
+	text-align: center;
+	font-size: 25px;
+}
+
+.div1 {
+    width: 200px;
+    height: 72px;
+    padding: 15px;
+/*    border: 1px solid red;*/
+	font-size:17.5px;
+	box-sizing: border-box;
+	background-color: rgba(1, 1, 1, 0.7);
+}
+.div2 {
+    width: 200px;
+    height: 72px;
+    padding: 15px;
+/*    border: 1px solid red;*/
+	font-size:17.5px;
+	box-sizing: border-box;
+	background-color: rgba(1, 1, 1, 0.7);
+}
+.div3 {
+    width: 370px;
+    height: 390px;
+    padding: 15px;
+/*    border: 1px solid red;*/
+	font-size:17.5px;
+	box-sizing: border-box;
+	background-color: rgba(1, 1, 1, 0.7);
+    text-align: justify;
+}
+.div4 {
+    width: 370px;
+    height: 410px;
+    padding: 15px;
+/*    border: 1px solid red;*/
+	font-size:17.5px;
+	box-sizing: border-box;
+	background-color: rgba(1, 1, 1, 0.7);
+}
+/*.btn {
+	background: url(./heart.png);
+	background-size: 150px;
+	background-repeat: no-repeat;
+	border: 1px;
+	height: 150px;
+	color: #000;
+	padding: 50px 10px;
+	text-decoration: none; 
+}*/
